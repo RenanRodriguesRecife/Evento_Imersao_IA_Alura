@@ -79,3 +79,18 @@ OBS: Sempre coloque o exemplo do formato da saída no início do promt. Evite co
 
 
 OBS: Evite usar o ChatGPT para fazer funções que outras ferramentas já são muito bom para isso: Ex: Converter JSON para CSV.
+
+
+
+Integrações (Usando API):
+
+Integrar Google SpriteSheets com o ChatGPT: Nas extenções tem o ADDON(complementos) SheetGPT (2023)
+
+=GPT("o promt que você quer executar")
+
+Ex:
+
+´´´
+=GTP("Qual a nota de 0 a 10 que a pessoa daria para a o filme com a seguinte avaliação: "&C1)
+
+47:06

@@ -38,3 +38,23 @@ promt1: Descreva em texto um poster de um jogo Half life 2 episode 3:
 promt2: Agora eu quero que você separe o texto em palaves, sem descrição detalhada apenas palavras chaves.
 
 agora você pode usar no midjorney.
+
+
+
+AULA 02
+
+Como resumir conteúdos:
+
+Análise de sentimentos:
+- Diga qual é o sentimento: Positivo, negativo ou neutro: "cole o texto que você quer analizar"
+
+OBS: Você pode separar os textos colocando um "-" hífen antes dos parágrafos 
+
+´´´
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus sit amet magna lobortis aliquet. Phasellus aliquam orci est, vitae consequat ligula fringilla a. Suspendisse id nulla blandit, aliquet odio ut, dictum mauris. Nam scelerisque tempus quam. In hac habitasse platea dictumst. Nullam diam enim, bibendum euismod mattis vestibulum, dignissim in diam. Phasellus gravida malesuada elementum. Sed vulputate elit lorem, et finibus purus feugiat vitae.
+
+- Mauris sit amet lectus nec arcu egestas feugiat. Vivamus a fringilla elit, ut dictum nulla. Praesent ut neque dictum, auctor enim a, pharetra nunc. In consectetur commodo ligula, in gravida metus gravida at. Morbi mauris massa, sagittis ac commodo sed, laoreet eget ipsum. Ut ornare ultrices aliquet. Phasellus id tortor et justo ullamcorper pharetra. Praesent dapibus vitae ligula at vulputate. Integer tellus nunc, vestibulum in dolor quis, posuere vestibulum quam. Aliquam erat volutpat. Curabitur in lacus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus quis lectus est. Nullam nunc ex, imperdiet a ex non, rutrum cursus neque.
+
+- Praesent eu orci fringilla, varius quam vitae, aliquet turpis. Proin ullamcorper odio vel interdum euismod. Mauris porta dictum massa at tristique. Aenean id felis nec eros convallis venenatis in imperdiet urna. Proin at tortor interdum, fringilla odio semper, volutpat nulla. Ut mollis arcu vitae justo consequat consequat. Pellentesque sit amet neque nibh. Fusce lectus purus, congue at urna quis, consequat pulvinar ante. Cras id finibus sapien, quis consectetur dolor. Ut finibus lorem in nulla posuere faucibus. Nulla quam magna, porta nec nunc sit amet, gravida fermentum quam. Cras in mauris augue. Aenean eget blandit nisi. Nunc porttitor libero at tellus pellentesque accumsan. Proin fringilla in nisi et ornare. Mauris eget ultrices velit, et sagittis odio.
+
+´´´

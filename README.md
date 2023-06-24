@@ -28,4 +28,13 @@ OBS: Você pode pedir para o GPT escrever:  "Me diga como seria a pronuncia da p
 
 Os modelos LLM não aprendeou os textos e sim como os seres humanos consegue escrever textos. Ele para a próxima palava ele calcula estatiscamente qual seria a próxima palavra viável.
 
-58:45
+OBS: O chatgpt não consegue nem se quisese gerar a mesma resposta com o mesmo promt. Se você pedir dados no chatgpt ele tem uma grande probabilidade de te dar números aleatórios.
+
+OBS: É importante que você limpe a tela quando for trocar de assunto
+
+Você deve usar o resultado de uma AI como promt em outra ai
+EX: 
+promt1: Descreva em texto um poster de um jogo Half life 2 episode 3:
+promt2: Agora eu quero que você separe o texto em palaves, sem descrição detalhada apenas palavras chaves.
+
+agora você pode usar no midjorney.

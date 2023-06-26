@@ -222,3 +222,89 @@ Utilize a lista de valores da planilha e o método Chain-of-Thought (Cadeia de r
 
 
 # AULA 04
+
+Criar ferramentas usando API do gpt
+
+Eightify - pega um vídeo transcreve o texto e resume usando chat GPT
+
+Gamma.ap cria slides
+
+JASPER - ai para criar propagandas
+
+
+Você pode pedir para o GPT construir formulas para google sheets
+Tenho uma planilha no Google sheets com notas de alunos. Na coluna A está o nome do aluno e na coluna B a nota. Crie uma fórmula para filtrar os alunos com notas acima de 7.
+
+você pode pedir para que ele crie actions script para o google sheets:
+Tenho uma planilha do Google sheets com uma lista de alunos e as notas de cada aluno em 4 diferentes provas. Quero uma função em APP Script para calcular a nota final do aluno. Ele recebe as 4 notas das provas e devolve uma nota com o seguinte critério: - Se o aluno tirou algum zero a nota final é 0.0 - se não a nota final é a média das 3 maiores notas.
+
+OBS: No chatgpt o Enter funciona melhor que um ponto ou uma vírgula
+
+```
+function calcularNotaFinal(notal1, notal2, nota3, nota4){
+    var notas = [nota1, nota2, nota3, nota4];
+    notas.sort(function(a,b){return b - a;}) // ordena as notas em ordem decrescente
+
+    if (notas[3] === 0){
+        return 0.0;
+    }else{
+        var media = (notas[0] + notas[1] + notas[2])/3;
+        return media.toFided(2); //retorna a média com duas casa decimais
+    }
+}
+```
+ele também te dar a forma de como usar
+
+=calcularNotaFinal(B2, C2, D2, E2)
+
+### Usar a API do GPT
+
+Playground - você pode fazer testes
+
+Maximum length - o número máximo de tokens que você quer (quanto mais mais caro)
+
+Temperatura - Mede o grau de aleatoriedade da escolha do token. Se o valor for muito alto ele passa a criar fazes que não fazem sentido. Se a temperatura for zero ele tem uma grande chance de entregar a mesma resposta ou respostas levementes diferentes (por que o sevidor tem computadores paralelos rodando o algoritmo do GPT). Se você quer palavras inesperadas você almenta a temperatura.
+
+System - Você cria regras para determinar como o assitente deve se comportar
+Ex: você é um professo de física que escreve empaticamente com uso de gírias.
+OBS: Nessa parte você deve retirar os vieses. No geral é mais puxado para homens brancos...
+
+
+Ferramenta GPT TOKENIZER (site) - permite você visualizar quais são o tokens
+
+(os tokens que você será cobrado são os tokens da pergunta e da resposta). Por isso você deve ser o mais certeiro possível na primeira mensagem.
+
+```
+const SECRET_KEY = "YOUR API KEY";
+const MAX_TOKENS = 3000;
+const TEMPERATURE = 0.9;
+
+function EMAILALUNO(aluno, nota) {
+  const url = "https://api.openai.com/v1/chat/completions";
+  const payload = {
+    model: 'gpt-3.5-turbo',
+    messages: [
+      { role: "system", content: "Crie um parágrafo de incentivo para um aluno que recebeu uma nota na prova. Vou passar o nome do aluno e a nota." },
+      { role: "user", content: "Aluno: " + aluno + '. Nota: ' + nota },
+    ],
+    temperature: TEMPERATURE,
+    max_tokens: MAX_TOKENS,
+  };
+  const options = {
+    contentType: "application/json",
+    headers: { Authorization: "Bearer " + SECRET_KEY },
+    payload: JSON.stringify(payload),
+    timeoutInSeconds: 60
+  };
+  const res = JSON.parse(UrlFetchApp.fetch(url, options).getContentText());
+  return res.choices[0].message.content.trim();
+}
+```
+
+OBS: Você deve pegar a sua apikey na ferramenta do chatgpt
+
+
+## Ferramentas geradoras de voz
+
+
+

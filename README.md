@@ -107,4 +107,93 @@ Framer.AI -> pode gerar um site
 ---------------------------------
 Aula 03 - Engenharia de Promt
 
+Expansão de texto
+Resumo de Texto
+transformações (tradução, correção)
+Classificação
 
+prompt: Vamos simular como funciona o ChatGPT, para cada frase que eu escrever no prompt, você deve listar as 5 palavras com maior probabilidade que você usaria para completá-la, junto com a probabilidade de cada uma delas. Apenas as palavras e probabilidade, sem mais nada. Entendeu?
+
+prompt:  A capital do Brasil é
+
+```
+
+1. Brasilia - 0.95
+2. Rio de Janeiro - 0.03
+3. São paulo - 0.02
+4. Belo Horizonte - 0.01
+5. Salvador - 0.01
+
+```
+
+O GPT não faz conta ele calcula probabilidades
+O gpt não pega a palavra que tem a maior probabilidade as vezes ele pega a 2 ou 3 terceira para dar um tom mais humano
+
+
+Você pode pegar um artigo difícil de entender. E pedir para chatGPT escrever como se estivesse escrevendo para uma criança de 10 anos.
+
+Ele pode naõ acertar. Mas ele escreve texto que fazem sentido mas pode não está correto.
+
+
+Boas práticas:
+
+Escrever instruções de forma clara
+
+Expansão de texto:
+
+Expessificar, dando o máximo de informação que você pode:
+
+Sobre a imersão:
+A imersão são 5 aulas que abordam AI generativas com ChatGPT, Bing, Veremos integração com Google SHeets, uso de plugin do GPT. Engenharia de prompt. Os professores da imersão são Paulo, Guilherme, Sérgio. O público alvo é pessoas iniciantes de deversas áreas interessadas em aplicar IA.
+
+Dizer quantos paragravos você quer que o texto tenha:
+Siga as regras para criar o post:
+Ex: 
+- Um post possui 4 parágrafos.
+- 5 hashtags em maiuscula.
+- Use emojis em todos os parágrafos.
+- O texto deve ser épico gerando um storytelling como a jornada do heroi
+
+O link para inscrição é alura.com.br/imersão-ia
+
+GPT4 - consegue intepretar melhor as ordem ambíguas
+
+
+Se você tem tarefas complexas deve ser subdividadas em tarefas menores mais claras.
+
+O prompt: O texto deve ser épico gerando um storytelling como a jornada do heroi
+
+pode ser quebrado em :
+O texto deve ser épico gerando um storytelling como a jornada do heroi:
+- Comece com uma pessoa iniciante
+- essa pessoa tem um problema no mundo real
+- ela passa por dificuldades mas consegue atingir seu objetivo com a juda da inteligência artificial
+
+
+Regras deve ser claras
+Regras complexas devem ser transformadas em regras simples
+Deve ser enumeradas
+Deve ser explicitas
+E dar exemplos
+
+Você pode dar exemplos de textos para ela seguir.
+Quando você dá um prompt sem exemplo é considerado 0 shot
+
+quando você coloca um texto de exemplo: 1 shot
+FFW shots - dar vários exemplos
+
+Você deve dár vários exemplos para cobrir as possibilidades
+Ex:
+fassa tal coisa seguindo o exemplo do texto a seguir:
+
+
+CHAIN OF THOUGHT (CADEIA DE PENSAMENTO) - pense passo a passo
+
+
+Outro exemplo
+
+Pergunta: Um diretor de cinema já dirigiu 16 filmes. Metade dos filmes que ele dirigiu são de ação e metade dos filmes de ação tem a participação do Nicolas Cage. Quanto filmes de ação com a participação do Nicolas Cage ele dirigiu?
+
+Resposta: Vamos pensar passo a passo.
+
+Se você não colocar vamos pensar passo a passo. Tem um grande probabilidade de dar errado pois ele vai embolar as informações.

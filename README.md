@@ -197,3 +197,28 @@ Pergunta: Um diretor de cinema já dirigiu 16 filmes. Metade dos filmes que ele 
 Resposta: Vamos pensar passo a passo.
 
 Se você não colocar vamos pensar passo a passo. Tem um grande probabilidade de dar errado pois ele vai embolar as informações.
+
+Você pode fazer ele rever com mais cuidado
+
+Prompt: Tem certeza? Reflita sobre a resposta.
+
+
+https://platform.openai.com/docs/guides/gpt-best-practices
+
+https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md#maieutic-prompting
+
+https://arxiv.org/abs/2201.11903
+
+https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html
+
+https://arxiv.org/abs/2205.11916
+
+https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
+
+CHAIN OF THOUGHT (CADEIA DE PENSAMENTO)
+
+Utilize a lista de valores da planilha e o método Chain-of-Thought (Cadeia de raciocínio) no ChatGPT para obter o cálculo do valor do imposto a ser arrecadado. Considere que pessoas com rendimento de até R$20.000,00 pagam 10% de imposto, pessoas com rendimento entre R$20.000,00 e R$40.000,00 pagam 20% de imposto, e pessoas com rendimento acima de R$40.000,00 pagam 30% de imposto.
+
+
+
+# AULA 04

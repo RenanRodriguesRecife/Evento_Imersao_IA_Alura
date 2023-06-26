@@ -88,9 +88,23 @@ Integrar Google SpriteSheets com o ChatGPT: Nas extenções tem o ADDON(compleme
 
 =GPT("o promt que você quer executar")
 
+A avaliação que o promt faz com um elemento é muito mais exato que a avaliação que ele faz com 20 elementos de uma vez.
+
+
+
 Ex:
 
 ´´´
-=GTP("Qual a nota de 0 a 10 que a pessoa daria para a o filme com a seguinte avaliação: "&C1)
+=GPT("Qual a nota de 0 a 10 que a pessoa daria para a o filme com a seguinte avaliação: "&C1)
 
-47:06
+
+=GPTLIST -> ele gera um resultado para cada célula em uma lista
+
+=GTPIMAGE -> cria uma imágem
+
+Framer.AI -> pode gerar um site
+
+---------------------------------
+Aula 03 - Engenharia de Promt
+
+

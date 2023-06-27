@@ -347,3 +347,4 @@ Na terceira ação, extraia apenas o telefone do candidato.
 Na quarta ação, faça a análise do currículo. Avalie anos de experiência, projetos relevantes e tecnologias com as quais o candidato trabalhou. Classifique o nível do candidato como Júnior, Pleno ou Sênior.
 Na quinta e última ação, analise a resposta anterior do ChatGPT e responda com uma palavra se o candidato é Júnior, Pleno ou Sênior.
 Por fim, insira os dados extraídos na planilha criada usando uma ação do Google Sheets no Zapier (pode escolher a opção de criar múltiplas linhas na planilha).
+
